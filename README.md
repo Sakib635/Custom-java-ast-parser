@@ -25,17 +25,17 @@ This project is a Java AST (Abstract Syntax Tree) parser that uses the Eclipse J
    git clone https://github.com/yourusername/java-ast-parser.git
    cd java-ast-parser
 
-2 Open the project in your preferred Java IDE.
+2. Open the project in your preferred Java IDE.
 
-3 Add the required libraries to your project's build path:
+3. Add the required libraries to your project's build path:
 
   Apache Commons IO (commons-io-x.x.jar)
   Eclipse JDT Core (org.eclipse.jdt.core_x.x.x.jar)
 
-4 Update the file path in the parserStep class to point to your Java source file:
+4. Update the file path in the parserStep class to point to your Java source file:
 String content = FileUtils.readFileToString(new File("/path/to/your/ContentReader.java"));
 
-5 Run the parserStep4 class to see the output.
+5. Run the parserStep4 class to see the output.
 
 
 Usage
