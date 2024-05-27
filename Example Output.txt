@@ -1,0 +1,69 @@
+Output:
+
+Method Declaration: ContentReader
+
+Method Declaration: getInputFile
+
+Method Declaration: setInputFile
+
+Method Declaration: read
+Variable declaration: br at line 23
+Variable declaration: sb at line 25
+Variable declaration: line at line 27
+Variable declaration: everything at line 38
+
+Method call: getInputFile with 0 parameters: []
+
+Method call: readLine with 0 parameters: []
+Receiver variable: br
+Prior method call on same variable: readLine
+Prior method call on same variable: close
+
+Method call: append with 1 parameters: [java.lang.String]
+Receiver variable: sb
+Prior method call on same variable: append
+Prior method call on same variable: trimToSize
+Prior method call on same variable: toString
+
+Method call: append with 1 parameters: [java.lang.String]
+Receiver variable: sb
+Prior method call on same variable: append
+Prior method call on same variable: trimToSize
+Prior method call on same variable: toString
+
+Method call: lineSeparator with 0 parameters: []
+Receiver variable: System
+
+Method call: readLine with 0 parameters: []
+Receiver variable: br
+Prior method call on same variable: readLine
+Prior method call on same variable: close
+
+Method call: close with 0 parameters: []
+Receiver variable: br
+Prior method call on same variable: readLine
+Prior method call on same variable: readLine
+
+Method call: trimToSize with 0 parameters: []
+Receiver variable: sb
+Prior method call on same variable: append
+Prior method call on same variable: append
+Prior method call on same variable: toString
+
+Method call: toString with 0 parameters: []
+Receiver variable: sb
+Prior method call on same variable: append
+Prior method call on same variable: append
+Prior method call on same variable: trimToSize
+
+Method Declaration: main
+Variable declaration: reader at line 42
+
+Method call: println with 1 parameters: [java.lang.String]
+
+Method call: read with 0 parameters: []
+Receiver variable: reader
+
+Method call: printStackTrace with 0 parameters: []
+Receiver variable: e
+
