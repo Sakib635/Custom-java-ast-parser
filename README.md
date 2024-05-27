@@ -42,16 +42,15 @@ Usage
 The main class parserStep reads a Java source file, parses it into an AST, and prints the following information to the console:
 
 Step 1:
-
 Method declarations and their names.
 Variable declarations within method bodies and their line numbers.
+
 Step 2:
-
 Method invocations and their signatures (method name, number of parameters, and parameter types).
-Step 3:
 
+Step 3:
 Receiver variable of method calls.
 Method calls on the same receiver variable within the same method body, prior to the current method call.
-Step 4:
 
+Step 4:
 Method calls that use the receiver variable as an argument, within the same method body, prior to the current method call.
