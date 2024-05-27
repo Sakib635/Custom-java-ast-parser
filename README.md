@@ -1,5 +1,4 @@
 # Java AST Parser
-# Java AST Parser
 
 This project is a Java AST (Abstract Syntax Tree) parser that uses the Eclipse JDT (Java Development Tools) to analyze Java source files. The parser extracts and prints information about method declarations, variable declarations, method invocations, and their relationships within a codebase.
 
