@@ -38,7 +38,7 @@ String content = FileUtils.readFileToString(new File("/path/to/your/ContentReade
 5. Run the parserStep4 class to see the output.
 
 
-Usage
+## Usage
 The main class parserStep reads a Java source file, parses it into an AST, and prints the following information to the console:
 
 Step 1:
